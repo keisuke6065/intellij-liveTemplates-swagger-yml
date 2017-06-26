@@ -246,7 +246,7 @@
       <option name="YAML" value="true" />
     </context>
   </template>
-  <template name="enum" value="  $NAME$:&#10;    type: object&#10;    properties:&#10;      code:&#10;        type: string&#10;        example: $CODE$&#10;        description: $CODE_DESCTIPTION$のコード&#10;      name:&#10;        type: string&#10;        example: $DISP_NAME$&#10;        description: $DESCRIPTION$&#10;" description="swagger" toReformat="false" toShortenFQNames="true">
+  <template name="enum" value="$NAME$:&#10;  type: object&#10;  properties:&#10;    code:&#10;      type: string&#10;      example: $CODE$&#10;      description: $CODE_DESCTIPTION$のコード&#10;    name:&#10;      type: string&#10;      example: $DISP_NAME$&#10;      description: $DESCRIPTION$&#10;" description="swagger" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="CODE" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="CODE_DESCTIPTION" expression="" defaultValue="" alwaysStopAt="true" />
