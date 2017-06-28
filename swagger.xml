@@ -349,11 +349,12 @@
       <option name="YAML" value="true" />
     </context>
   </template>
-  <template name="parameters" value="parameters:&#10;  - name: $NAME$&#10;    in: query&#10;    description: $DESCRIPTION$&#10;    required: $BOOL$&#10;    type: $TYPE$&#10;" description="swagger" toReformat="false" toShortenFQNames="true">
+  <template name="parameters" value="parameters:&#10;- name: $NAME$&#10;  in: $DATA_TYPE$&#10;  type: $TYPE$&#10;  required: $BOOL$&#10;  description: $DESCRIPTION$&#10;" description="swagger" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="BOOL" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="DATA_TYPE" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="BOOL" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="ACTION_SCRIPT" value="false" />
       <option name="ASPECTJ" value="false" />
