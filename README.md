@@ -1,1 +1,3 @@
-first commit
+~/Library/Preferences/{intellij version}/templates
+
+
